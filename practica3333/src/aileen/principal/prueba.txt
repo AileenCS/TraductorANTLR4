@@ -1,0 +1,121 @@
+#include <stdio.h>
+void main(){
+float b;
+b=3.5;
+
+int a;
+a=4;
+
+if(a>2){
+printf(a+3+b);
+
+else(a>3){
+printf(b+7);
+}
+
+void main() {
+
+int litros;
+litros = 40;
+float precio;
+precio =  19.97;
+float total;
+total= litros * precio;
+
+printf( total );
+
+}
+
+inicio programa(){
+
+entero litros;
+litros=40.0;
+ flotante precio;
+precio=19.97;
+ flotante total;
+total=litros*precio;
+
+imprime(total);
+ }
+
+
+
+ #include <stdio.h>
+ void main() {
+
+ int variablea=20;
+int variableb=200;
+ if( variableA <= variableb ){
+ printf(variableA)
+ }
+
+ }
+
+
+ #include <stdio.h>
+  void main() {
+  int variableA = 20;
+ int variableB=200;
+
+  if( variableA <= variableB ){
+  printf(variableA);
+ }
+ #include <stdio.h>
+  void main() {
+  int variableA = 20;
+ int variableB=200;
+
+  if( variableA <= variableB ){
+  printf(variableA);
+ }
+
+
+#include <stdio.h>
+void main(){
+if(true){
+if(false){printf(1);}else{printf(2);}
+if(true){printf(3);}else if(false){printf(4);}
+if(false){}else if(true){printf(5);} else{}
+}
+
+
+ #include <stdio.h>
+  void main() {
+int variableA;
+variableA = 20;
+int variableB;
+ variableB=200;
+
+  if( variableA <= variableB ){
+  printf(variableA);
+ }
+
+ #include <stdio.h>
+ void main() {
+ int mercurio;
+  mercurio= 4879;
+ int venus;
+  venus= 12104;
+ int tierra;
+  tierra= 12742;
+ int marte;
+  marte= 6779;
+ int jupiter;
+  jupiter= 139820;
+ int saturno;
+  saturno= 116460;
+ int urano;
+  urano= 50724;
+
+ int neptuno;
+  urano= 49244;
+
+ if (tierra > venus && tierra < jupiter ) {
+ printf("La tierra es mayor que venus pero menos que jupiter");
+ } else if ( jupiter > mercurio && jupiter > venus && (jupiter > tierra) && jupiter > marte && jupiter > saturno && jupiter > urano && jupiter > urano ){
+ printf("Jupiter es el planeta mas grande de la tierra")
+ }
+ printf("El sistema solar")
+ }
+
+ }

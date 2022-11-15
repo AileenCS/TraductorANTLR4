@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="534.0" prefWidth="453.0" style="-fx-background-color: #FFFF;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aileen.principal.Controller">
+   <children>
+      <ImageView fitHeight="260.0" fitWidth="459.0" layoutX="-4.0" layoutY="-106.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/Nueva_carpeta/Nueva%20carpeta/Login/src/application/3.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="477.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../../../../Downloads/Nueva_carpeta/Nueva%20carpeta/Login/src/application/1.jpg" />
+         </image>
+         <viewport>
+            <Rectangle2D height="100.0" width="500.0" />
+         </viewport>
+      </ImageView>
+      <TextField fx:id="nombre" layoutX="81.0" layoutY="277.0" promptText="Nombre" style="-fx-border-color: #e821c0;" />
+      <TextField fx:id="edad" layoutX="81.0" layoutY="314.0" promptText="Edad (años)" style="-fx-border-color: #e821c0;" />
+      <TextField fx:id="genero1" layoutX="81.0" layoutY="389.0" promptText="Genero" style="-fx-border-color: #e821c0;" />
+      <Label layoutX="30.0" layoutY="282.0" text="Nombre" textFill="#171717">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="239.0" layoutY="274.0" text="Estatura" textFill="#171617">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="48.0" layoutY="353.0" text="Peso" textFill="#0d0d0d">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="47.0" layoutY="319.0" text="Edad">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="394.0" text="Genero" textFill="#221e21">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Button fx:id="btnimc" layoutX="304.0" layoutY="324.0" mnemonicParsing="false" onAction="#Imc" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: #e43ab1;" text="IMC" textFill="#0a0505" />
+      <Button fx:id="btnger" layoutX="304.0" layoutY="399.0" mnemonicParsing="false" onAction="#get" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: #e43ab1;" text="GET" />
+      <Button fx:id="btnget" layoutX="304.0" layoutY="361.0" mnemonicParsing="false" onAction="#ger" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: #e43ab1;" text="GER" />
+      <Label layoutX="53.0" layoutY="160.0" prefHeight="53.0" prefWidth="386.0" text="Calculadora de datos" textFill="#ff0dcc">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Label fx:id="lblimc" layoutX="45.0" layoutY="468.0" prefHeight="39.0" prefWidth="78.0" text="lbl" textFill="#e43ab1">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font></Label>
+      <Label fx:id="lblger" layoutX="130.0" layoutY="478.0" prefHeight="17.0" prefWidth="85.0" text="lbll" textFill="#e43ab1">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font></Label>
+      <Label fx:id="lblget" layoutX="196.0" layoutY="478.0" prefHeight="17.0" prefWidth="85.0" text="aa" textFill="#e43ab1">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font></Label>
+      <Button fx:id="btncerrar" layoutX="333.0" layoutY="472.0" mnemonicParsing="false" onAction="#irPaginaPrincipal" prefHeight="31.0" prefWidth="106.0" style="-fx-background-color: #e43ab1;" text="Cerrar sesion" textFill="#fcf8f8">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Button>
+      <Accordion />
+      <Label layoutX="114.0" layoutY="213.0" text="Porfavor ingresar los datos completos">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="peso" layoutX="82.0" layoutY="349.0" promptText="Peso" style="-fx-border-color: #e821c0;" />
+      <TextField fx:id="estatura1" layoutX="289.0" layoutY="269.0" promptText="Estatura" style="-fx-border-color: #e821c0;" />
+      <Label fx:id="lblinfor" layoutX="87.0" layoutY="432.0" text="Datos " textFill="#cd0dad">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
